@@ -7,3 +7,5 @@ amazon_result = requests.get("https://www.amazon.com/Best-Sellers-Electronics/zg
 amazon_soup = BeautifulSoup(amazon_result.text, "html.parser")
 
 print(amazon_soup)
+
+dasdasdasdad
